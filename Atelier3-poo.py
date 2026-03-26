@@ -40,3 +40,6 @@ class Parc:
             self.liste_voitures.remove(voiture)
             print("Voiture retiree du parc")
 
+    def calculerNbrPlacesLibres(self):
+        return self.capacite - len(self.liste_voitures)
+
