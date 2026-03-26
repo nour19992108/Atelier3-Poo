@@ -33,3 +33,10 @@ class Parc:
             self.liste_voitures.append(voiture)
             print("Voiture ajoutee au parc")
 
+    def sortirVoiture(self, voiture):
+        if voiture not in self.liste_voitures:
+            print("La voiture n'est pas dans le parc")
+        else:
+            self.liste_voitures.remove(voiture)
+            print("Voiture retiree du parc")
+
