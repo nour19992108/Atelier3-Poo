@@ -53,3 +53,7 @@ parc1.entrerVoiture(v3)
 
 print("\n---- Etat du parc ----")
 parc1.afficher_infos()
+print("\n---- Sortir une voiture ----")
+parc1.sortirVoiture(v2)
+print("\n---- Places libres ----")
+print(parc1.calculerNbrPlacesLibres())
